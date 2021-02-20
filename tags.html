@@ -5,10 +5,10 @@
     <meta charset="utf-8"/>
   </head>
   <body>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right;">
+      <a href="index.html" style="text-decoration: none; color: black">Home</a>
+      <a href="tags.html" style="margin: 0 0 0 10px; text-decoration: none; color: black">HTML Tags</a>
+      <a href="moby_dick.html" style="margin: 0 0 0 10px; text-decoration: none; color:black">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -70,12 +70,12 @@
       <tr>
         <td><code>header</code></td>
         <td>header</td>
-        <td>no definition available</td>
+        <td>label the page header</td>
       </tr>
       <tr>
         <td><code>div</code></td>
         <td>division</td>
-        <td>no definition available</td>
+        <td>define block­level section in document</td>
       </tr>
       <tr>
         <td><code>ol</code></td>
@@ -86,6 +86,21 @@
         <td><code>ul</code></td>
         <td>unordered list</td>
         <td>make an unordered (bullet pointed) list</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>create an item in a list</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>block quote</td>
+        <td>include a quote (indented)</td>
+      </tr>
+      <tr>
+        <td>br</td>
+        <td>break</td>
+        <td>include a line break</td>
       </tr>
 
     </table>
@@ -146,27 +161,51 @@
       <tr>
         <td><code>span</code></td>
         <td>span</td>
-        <td>NO ONE KNOWS</td>
-        <td><code>&lt;span&gt;WHY SO CRYPTIC&lt;/span&gt;</code></td>
-        <td>span</td>
+        <td>define inline sec­tion in document</td>
+        <td><code>&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code></td>
+        <td>Call me Ishamel.</td>
+      </tr>
+    </table>
+
+  <h2>Document Tags</h2>
+
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Example</th>
       </tr>
       <tr>
-        <td><code>li</code></td>
-        <td>list item</td>
-        <td>create an item in a list</td>
-        <td><code>&lt;li&gt;one&lt;/li&gt;<br>
-                  &lt;li&gt;two&lt;/li&gt;<br>
-                  &lt;li&gt;three&lt;/li&gt;</code></td>
-        <td>
-          <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-          </ul>
-        </td>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>The language input for the website (French, English, etc.)</td>
+        <td><code>&lt;html&gt;</code></td>
       </tr>
-
-    </table>
+      <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>Organizational tag that contains metadata and can provide access to other files</td>
+        <td><code>&lt;head&gt;</code></td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>Organizational tag that contains the displayed content of a website</td>
+        <td><code>&lt;body&gt;</code></td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>The title of the browser tab</td>
+        <td><code>&lt;title&gt;</code></td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>A void element (self closing tag) that defines data about data (for our purposes, the character set)</td>
+        <td><code>&lt;meta&gt;</code></td>
+      </tr>
 
   </body>
 </html>
